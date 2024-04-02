@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "sender": "john.doe@example.com",
+      "recipient": "jane.smith@example.com",
+      "subject": "Meeting Reminder",
+      "body": "Just a reminder that we have a meeting scheduled for tomorrow at 10:00 AM. See you there!"
+    },
+    {
+      "id": 2,
+      "sender": "emma.jones@example.com",
+      "recipient": "peter.wilson@example.com",
+      "subject": "Project Update",
+      "body": "Hey Peter, here's the latest update on our project progress. Let me know if you have any questions."
+    },
+    {
+      "id": 3,
+      "sender": "michael.brown@example.com",
+      "recipient": "lisa.green@example.com",
+      "subject": "Invitation to Dinner",
+      "body": "Hi Lisa, I'm hosting a dinner party this Friday. I would love for you to join us. Please let me know if you can make it."
+    }
+  ]
+  
