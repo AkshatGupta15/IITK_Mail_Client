@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import MailCard from '../mail_components/mail_card';
 
 const Inbox = () => {
     const [data,setData]=useState([]);
@@ -23,6 +24,10 @@ const Inbox = () => {
   return (
     <div>inbox
         <button onClick={getData}>GetData</button>
+        <MailCard/>
+        <MailCard/>
+        <MailCard/>
+        <MailCard/>
     </div>
   )
 }
