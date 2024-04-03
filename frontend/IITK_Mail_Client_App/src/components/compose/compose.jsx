@@ -1,8 +1,11 @@
 import React from 'react'
+import Editor from './text-editor'
 
 const Compose = () => {
   return (
-    <div>Compose</div>
+    <div>
+      <Editor/>
+    </div>
   )
 }
 
