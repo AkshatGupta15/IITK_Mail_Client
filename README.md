@@ -7,6 +7,13 @@ npm run dev
 
 IN OTHER TERMINAL CD TO SAME PATH AND RUN 
 node server.mjs
+
+
+## Code Details 
+
+#### implemented backend proper authentication using jwt cookies but not integrated with frontend run independently 
+#### made functions to update mails in database but are prone to bugs due to time limit 
+### in frontend used json file to fetch and update mails
 ## FrontEND
 ### Login Page
 <img width="995" alt="Screenshot 2024-04-06 at 2 24 41 AM" src="https://github.com/AkshatIITK/IITK_Mail_Client/assets/146257084/e0fa5b45-53c4-4cba-81f7-4a608f512a77">
