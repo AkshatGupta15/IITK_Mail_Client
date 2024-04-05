@@ -93,8 +93,11 @@ func RegisterHelper(c *gin.Context, mongoStore *store.MongoStore) {
 	}
 	user.Password = string(hashedPassword)
 	user.Username = strings.TrimSpace(user.Username)
-	mongoStore.InsertUserData(user)
-
+	err = mongoStore.InsertUserData(user)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to insert Data"})
+		return
+	}
 	c.JSON(http.StatusOK, &user)
 }
 

@@ -1,0 +1,22 @@
+.home-appbar-constainer{
+    display: flex;
+}
+.heading-main {
+    /* font-family: "Sriracha", cursive; */
+    font-weight: 400;
+    font-style: normal;
+    display: inline;
+  }
+
+
+/* .user-dropdown{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.user-icon{
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+} */

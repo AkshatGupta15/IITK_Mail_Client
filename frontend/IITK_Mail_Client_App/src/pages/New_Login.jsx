@@ -57,7 +57,7 @@ const NewLogin = ({isloginUS, setUser }) => {
 
   return (
     <div style={{display: 'flex', margin: "auto",  justifyContent: "center", alignItems: "center", height: "80vh"}}>
-        <div style={{border: "1px solid"}}><img src={iitk_logo} alt="IIT_Logo" /></div>
+        <div style={{}}><img src={iitk_logo} alt="IIT_Logo" /></div>
         <div style={{ width: "500px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: "80vh" }}>
         {/* <div> */}
         <div className="w-75 h-50 p-4 box">

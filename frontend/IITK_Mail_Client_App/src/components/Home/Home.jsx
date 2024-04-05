@@ -19,6 +19,13 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Link, Outlet } from 'react-router-dom';
+import iitk_logo from "../../assets/whitelogo.gif"
+import "./Home.css"
+import { useState } from 'react';
+import UserDropdown from '../dropdown/dropdown';
+import Mail_screen_layout from '../mail_screen_layout/mail_screen_layout';
+
+
 
 const drawerWidth = 240;
 
@@ -90,6 +97,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 export default function Home() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [userDropdownOpen , setUserDropDownOpen] = useState(false)
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -102,7 +110,7 @@ export default function Home() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open}>
+      <AppBar position="fixed" open={open} className='home-appbar-constainer'>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -116,9 +124,19 @@ export default function Home() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Mini variant drawer
+          <Typography variant="h5" noWrap component="div">
+          {/* <MailIcon sx={{ mr: 1 }} /> */}
+          <img src={iitk_logo} alt="iitk_logo" style={{ marginRight: 5, height: 34 , color: "white"}} />
+            <div className='heading-main' >IITK MailClient</div>
           </Typography>
+          {/* <AccountCircleIcon sx={{ mr: 1 ,fontSize: 40 }} /> */}
+          {/* <div className='user-dropdown' onClick={()=> {setUserDropDownOpen(!userDropdownOpen)}}>
+            <div className='user-menu-trigger'>
+              
+              <img src={userIcon} alt="userIcon" className='user-icon'></img>
+            </div>
+          </div> */}
+          <UserDropdown/>
         </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>

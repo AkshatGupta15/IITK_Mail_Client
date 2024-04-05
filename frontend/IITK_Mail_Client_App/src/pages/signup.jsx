@@ -48,7 +48,7 @@ const Signup = ({ userUS }) => {
 
   return (
      <div style={{display: 'flex', margin: "auto",  justifyContent: "center", alignItems: "center", height: "80vh"}}>
-        <div style={{border: "1px solid"}}><img src={iitk_logo} alt="IIT_Logo" /></div>
+        <div style={{}}><img src={iitk_logo} alt="IIT_Logo" /></div>
     <div style={{ width: "500px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
     {/* <div> */}
       {/* <div style={{ width: "500px", margin: "auto", display: "flex", flexDirection: "column", alignItems: "center", marginTop: "8%"}}> */}

@@ -4,6 +4,7 @@ import Editor from './text-editor'
 const Compose = () => {
   return (
     <div>
+      
       <Editor/>
     </div>
   )

@@ -1,0 +1,26 @@
+.mail-screen-container{
+    position: absolute;
+    right: 0;
+    width: 95%;
+    
+    /* border: 1px solid red; */
+    display: flex;
+    z-index: 1; /* Ensure it's above other content */
+    /* overflow: scroll; */
+
+
+    
+    justify-content: space-between;
+
+}
+
+.mail-screen-mail-viewer{
+    width: 60%;
+    overflow: scroll;
+    border-left: 2px solid grey;
+}
+
+.mail-screen-inbox{
+    width: 39.5%;
+    overflow: scroll;
+}

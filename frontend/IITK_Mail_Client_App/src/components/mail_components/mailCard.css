@@ -1,0 +1,62 @@
+/*  MAIL CARD */
+.mail-icons{
+  width: 300px;
+}
+.mail-container{
+    width: 100%;
+    /* margin: 0 auto; */
+    border-bottom: 1px solid grey;
+    margin-bottom: 1px;
+    color: inherit;
+    text-decoration: inherit;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    /* justify-content: center; */
+  }
+  
+  .mail-container:hover{
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: italic !important;
+    /* font-weight: 550; */
+    background-color: aliceblue;
+
+  }
+  
+  
+  .mail-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    overflow-y: hidden;
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis;
+
+    
+  }
+  
+  .span-email{
+    width: 200px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+
+  }
+  .span-subject{
+    width: 300px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+
+
+  }
+  .span-body{
+    width: 400px;
+    height: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+
+
+    
+  }
+  
