@@ -10,7 +10,8 @@ node server.mjs
 
 
 ## Code Details 
-
+### frontend part is running properly using json (not integrated backend using go due to time limit) but it is functional by using json to fetch and update 
+### compose mail is having rich text editor with images
 #### implemented backend proper authentication using jwt cookies but not integrated with frontend run independently 
 #### made functions to update mails in database but are prone to bugs due to time limit 
 ### in frontend used json file to fetch and update mails
