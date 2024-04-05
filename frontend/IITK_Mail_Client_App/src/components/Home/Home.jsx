@@ -23,7 +23,7 @@ import iitk_logo from "../../assets/whitelogo.gif"
 import "./Home.css"
 import { useState } from 'react';
 import UserDropdown from '../dropdown/dropdown';
-import Mail_screen_layout from '../mail_screen_layout/mail_screen_layout';
+
 
 
 
